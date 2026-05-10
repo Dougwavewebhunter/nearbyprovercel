@@ -1,0 +1,14 @@
+NearbyPro Featured Pros Update
+
+Changes included:
+1. Homepage Featured Pros now sorts by:
+   - Admin Featured switch first
+   - Newest provider listings second
+2. New provider listings automatically appear at the top if no admin-featured listings are pinned above them.
+3. Admin > Providers now has a Featured toggle for each provider.
+4. Google and Facebook login buttons were removed from the auth page until OAuth is ready.
+5. Added Supabase SQL fix:
+   RUN_THIS_IN_SUPABASE_FEATURED_PROS.sql
+
+Important:
+Before or immediately after deploying the updated GitHub files, run RUN_THIS_IN_SUPABASE_FEATURED_PROS.sql once in Supabase SQL Editor.
